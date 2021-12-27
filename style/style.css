@@ -1,0 +1,43 @@
+html{
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: black;
+    font-family: 'Arial', Times, sans-serif;
+    font-size: 1.6rem;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    color: red;
+    margin-left: 1.6rem;
+   
+}
+
+header nav a {
+    
+    color: white;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    
+    color: rgb(104, 92, 92);
+    text-decoration: none;
+}
